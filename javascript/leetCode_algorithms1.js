@@ -14,6 +14,14 @@
  * @return {number}
  */
 
-const search = () => {
-    
+// an array contains numbers in ascending order (nums)
+// target is the input number and search the array to find the index #
+
+const search = (nums, target) => {
+    // loop: compare target number to each index in nums array
+    // conditional: if the target mathes index num, then return index
+        // else return -1
+
 }
+
+console.log(search([-1,0,3,5,9,12], 3));
