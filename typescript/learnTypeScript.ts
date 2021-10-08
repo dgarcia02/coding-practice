@@ -14,3 +14,10 @@
 // This will create an equivalent .js file in the same directory as well as surface any errors found by the TypeScript transcompiler.
 
 // Run the TypeScript transcompiler using the tsc command.
+
+// Excercise 2
+// -  A variable must be given a data type and cannot be changed after that
+
+
+
+// I am testing the commit on github
