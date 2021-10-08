@@ -19,9 +19,31 @@
 
 const search = (nums, target) => {
     // loop: compare target number to each index in nums array
-    // conditional: if the target mathes index num, then return index
-        // else return -1
-
+    for (let i = 0; i < nums.length; i++) {
+        // console.log(nums[2]);
+        // return nums[1]
+        if (target === nums[i]) {
+            return i
+        } else if (target !== nums[i]) {
+            return -1
+        }
+    }
 }
 
-console.log(search([-1,0,3,5,9,12], 3));
+// console.log(search([-1,0,3,5,9,12], 5));
+// console.log(search([-1,0,3,5,9,12], 9));
+// console.log(search([-1,0,3,5,9,12], 0));
+// console.log(search([-1,0,3,5,9,12], 1));
+// console.log(search([-1,0,3,5,9,12], 4));
+// console.log(search([-1,0,3,5,9,12], 2));
+console.log(search([-1,0,3,5,9,12], 9));
+
+// for (let i = 0; i < nums.length; i++) {
+//     // console.log(i);
+
+//     // conditional: if the target mathes index num, then return index
+//     // else return -1
+//     if(target === i){
+//         console.log(i);
+//     } 
+// }
